@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ug-CN" ng-app="keyboardLayouts">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>每周一句话</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="html5shiv.min.js"></script>
+      <script src="respond.min.js"></script>
+    <![endif]-->
+      <script src="js/angular.js"></script>
+      <script src="js/angular-route.min.js"></script>
+      <script src="js/app.js"></script>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <img src="images/title_image.jpg"  class="img-thumbnail">
+        </div>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+                    <a class="navbar-brand" href="#/">每周一句话</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#/"><i class="fa fa-home"></i> 首页 </a></li>
+                    <li><a href="#/files"><i class="fa fa-home"></i> 政策文件 </a></li>
+                    <li><a href="#/about"><i class="fa fa-home"></i> 关于 </a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+      <div class="container">
+          <div ng-view>
+        </div>
+          <div class="panel-footer">
+    <p class="text-center ug">شىنجاڭ ئۇيغۇر ئاپتونوم رايونلۇق مىللەتلەر تىل-يېزىق خىزمىتى كومىتېتى (تەرجىمە ئىدارىسى)<br/>
+            </p>
+              <p class="text-center">
+                    新疆维吾尔自治区民族语言文字工作委员会（翻译局）
+                <br/>
+            <a href="http://www.tiltori.com">www.tiltori.com</a>
+          </p>
+    </div>
+          
+      </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap-uyghur.js"></script>
+  </body>
+</html>
