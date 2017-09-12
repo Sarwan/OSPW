@@ -1,0 +1,55 @@
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <div class="panel panel-default panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title"><b>{{CategoryName}}</b></h3>
+          </div>
+          <div class="panel-body color-warning">
+              <br/><br/><br/>
+            <h2 class="ug text-center play-text">{{CurrentSentence.Uyghur}}</h2>
+              <br/><br/>
+              <h2 class="text-center"> {{CurrentSentence.Chinese}}</h2>
+              <br/>
+              <br/>
+              <br/>
+          </div>
+            <div class="panel-footer">
+                
+                <audio controls="controls" autoplay id="aplayer">
+                  <source src="files/mp3/sawaqdashlar.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+                </audio>
+                <!--
+                <btn class="btn btn-success">
+                    <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                </btn>
+                <btn class="btn btn-success">
+                    <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+                </btn>
+                
+                <btn class="btn btn-success">
+                    <span class="glyphicon glyphicon-fast-backward" aria-hidden="true"></span>
+                </btn>
+                
+                <btn class="btn btn-success">
+                    <span class="glyphicon glyphicon-fast-forward" aria-hidden="true"></span>
+                </btn>
+                -->
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">句子</h3>
+  </div>
+  <div class="panel-body">
+      <sentences-list></sentences-list>
+  </div>
+   
+</div>
