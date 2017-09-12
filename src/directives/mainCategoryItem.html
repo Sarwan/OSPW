@@ -1,0 +1,24 @@
+<li class="list-group-item" ng-repeat="mcat in data">
+   
+       <div class="row title-bg">
+           <div class="col-md-2">
+             <div class="left" ><img src="images/icons/{{mcat.id}}.png" class="icon"/></div>
+           </div>
+          <div class="col-md-5 cn main-title active text-center"><b>{{mcat.TitleCn}}</b></div>
+          <div class="col-md-5 ug main-title text-center">{{mcat.TitleUg}}</div>
+       </div>
+           
+        
+        
+       
+            <ul style="margin-left:30px; margin-right:60px;">
+                <li class="list-group-item" ng-repeat="subcat in mcat.SubCategories">
+                    <div class="row">
+                        <a href="#/play/{{subcat.id}}">
+                            <div class="col-md-6 cn sub-title"><b>{{subcat.TitleCn}}</b></div>
+                            <div class="col-md-6 ug sub-title text-right">{{subcat.TitleUg}}</div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+</li>

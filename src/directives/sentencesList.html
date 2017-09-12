@@ -1,0 +1,14 @@
+
+<table class="table table-hover">
+        <thead> 
+            <tr>  <th class="text-center">序号</th> <th class="text-center">汉文</th> <th class="text-center">维吾尔文</th> </tr> 
+          </thead>
+        <tbody> 
+            <tr ng-repeat="sen in data| sentence:2" ng-click='selSen(sen,$index)' ng-class="{'success':$index == selectedRow}">
+                <th scope="row">{{$index+1}} </th> 
+                <td class="cn">{{sen.Chinese}}</td> 
+                <td class="ug">{{sen.Uyghur}}</td>  
+            </tr> 
+            
+          </tbody>
+</table>
