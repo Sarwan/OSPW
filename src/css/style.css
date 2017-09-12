@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'ALKATIP Tor Tom';
+	src: url('../fonts/ALKATIPTorTom.eot');
+	src: url('../fonts/ALKATIPTorTom.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ALKATIPTorTom.woff') format('woff'),
+		url('../fonts/ALKATIPTorTom.ttf') format('truetype'),
+		url('../fonts/ALKATIPTorTom.svg#ALKATIPTorTom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.icon{
+    width: 64px;
+    height: 64px;
+    float: left;
+    padding-left:5px;
+}
+
+.label-fix{
+    padding: .5em  .5em .5em .5em !inportant;
+    font-family:sans-serif; !important;
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 16px;
+}
+.about-header {
+ border: 0 solid #efefef;
+ border-bottom-width:1px;
+ padding-bottom:10px;
+}
+
+.ug{
+    font-family: "ALKATIP Tor Tom","alkatip tor","alkatip_torregular";
+    direction: rtl;
+}
+
+.cn{
+    font-family: "宋体";
+    font-size: 16pt;
+}
+
+.main-title{
+    font-size: 20pt;
+    color: green;
+    padding-top: 15px;
+}
+
+.sub-title{
+    font-size: 16pt;
+    color: black;
+}
+
+.title-bg{
+    background-color: #f5f5f5;
+}
+
+#aplayer{
+    width: 100%;
+}
+
+.color-warning{
+    background-color: #f0ad4e;
+}
+
+.play-text{
+    line-height: 60px;
+}
