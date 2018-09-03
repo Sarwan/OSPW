@@ -5,4 +5,4 @@ One Sentence Per Week(每周一句话,ھەپتىدە بىر جۈملە). Learnin
 
 
 ## Screen shoot
-![screenshoot](/screenshoot.png)
+
